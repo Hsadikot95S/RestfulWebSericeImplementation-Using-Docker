@@ -1,0 +1,307 @@
+{
+	"customers": [
+	  {
+		"userId": "1",
+		"firstName": "Huzefa",
+		"lastName": "Sadikot",
+		"region": "Jersey City,New Jersey",
+		"phoneNumber": "0986754321",
+		"emailAddress": "abc@gmail.com",
+		"shippingAddress": "ABC Street, ABC City, NJ,12345",
+		"orders": [
+		  {
+			"orderId": "123",
+			"currency": "USD",
+			"subtotal": 48.98,
+			"discountAmount": 0,
+			"taxAmount": 0,
+			"grandTotal": 48.98,
+			"lineItems": [
+			  {
+				"sku": "576879",
+				"name": "T-Shirt",
+				"description": "A great quality and stylish T-Shirt",
+				"category": "Shirts > T-Shirts > Black",
+				"unitPrice": 9.99,
+				"salePrice": 9.99,
+				"quantity": 2,
+				"totalPrice": 19.98
+			  },
+			  {
+				"sku": "1112296",
+				"name": "Jacket",
+				"description": "A Great Quality Comfortable Jacket.",
+				"category": "Jackets > Winter > Fleece",
+				"unitPrice": 100,
+				"salePrice": 75,
+				"quantity": 1,
+				"totalPrice": 25
+			  }
+			]
+		  },
+		  {
+			"orderId": "124",
+			"currency": "USD",
+			"subtotal": 11.99,
+			"discountAmount": 0.99,
+			"taxAmount": 0,
+			"grandTotal": 11.99,
+			"lineItems": [
+			  {
+				"sku": "576880",
+				"name": "Shirt",
+				"description": "A great quality Shirt.",
+				"category": "Shirts > White",
+				"unitPrice": 20.99,
+				"salePrice": 20.99,
+				"quantity": 1,
+				"totalPrice": 41.98
+			  }
+			]
+		  },
+		  {
+			"orderId": "125",
+			"currency": "USD",
+			"subtotal": 58.01,
+			"discountAmount": 0,
+			"taxAmount": 0,
+			"grandTotal": 58.01,
+			"lineItems": [
+			  {
+				"sku": "93782101",
+				"name": "Poly Fleece",
+				"description": "A super great description of the product.",
+				"category": "Jackets > Winter > Fleece",
+				"unitPrice": 17.99,
+				"salePrice": 17.99,
+				"quantity": 1,
+				"totalPrice": 20.05
+			  },
+			  {
+				"sku": "93831749",
+				"name": "Super Comfortable Shoes",
+				"description": "A Super Stylish and Comfortable Shoes.",
+				"category": "Accessory > Shoes > Comfortable Shoes",
+				"unitPrice": 65.99,
+				"salePrice": 55.5,
+				"quantity": 1,
+				"totalPrice": 10.49
+			  },
+			  {
+				"sku": "92033407",
+				"name": "Hoodie",
+				"description": "A super Stylish Hoodie.",
+				"category": "Jackets > Hoodie > Brown",
+				"unitPrice": 60,
+				"salePrice": 30,
+				"quantity": 1,
+				"totalPrice": 30.00
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"userId": "2",
+		"firstName": "Nisarg",
+		"lastName": "Bhuva",
+		"region": "California",
+		"phoneNumber": "2709341547",
+		"emailAddress": "def@gmail.com",
+		"shippingAddress": "DEF Street, DEF City, CA,23456",
+		"orders": [
+			{
+			  "orderId": "321",
+			  "currency": "USD",
+			  "subtotal": 48.98,
+			  "discountAmount": 0,
+			  "taxAmount": 0,
+			  "grandTotal": 48.98,
+			  "lineItems": [
+				{
+				  "sku": "57687985",
+				  "name": "Jacket",
+				  "description": "A great quality and stylish T-Shirt",
+				  "category": "Shirts > T-Shirts > Black",
+				  "unitPrice": 9.99,
+				  "salePrice": 9.99,
+				  "quantity": 2,
+				  "totalPrice": 19.98
+				},
+				{
+				  "sku": "11122916",
+				  "name": "Jacket",
+				  "description": "A Great Quality Comfortable Jacket.",
+				  "category": "Jackets > Winter > Fleece",
+				  "unitPrice": 100,
+				  "salePrice": 75,
+				  "quantity": 1,
+				  "totalPrice": 25
+				}
+			  ]
+			},
+			{
+			  "orderId": "55",
+			  "currency": "USD",
+			  "subtotal": 11.99,
+			  "discountAmount": 0.99,
+			  "taxAmount": 0,
+			  "grandTotal": 11.99,
+			  "lineItems": [
+				{
+				  "sku": "576880",
+				  "name": "T-Shirt",
+				  "description": "A great quality Shirt.",
+				  "category": "Shirts > White",
+				  "unitPrice": 20.99,
+				  "salePrice": 20.99,
+				  "quantity": 1,
+				  "totalPrice": 41.98
+				}
+			  ]
+			},
+			{
+			  "orderId": "521",
+			  "currency": "USD",
+			  "subtotal": 58.01,
+			  "discountAmount": 0,
+			  "taxAmount": 0,
+			  "grandTotal": 58.01,
+			  "lineItems": [
+				{
+				  "sku": "93782101",
+				  "name": "Poly Fleece",
+				  "description": "A super great description of the product.",
+				  "category": "Jackets > Winter > Fleece",
+				  "unitPrice": 17.99,
+				  "salePrice": 17.99,
+				  "quantity": 1,
+				  "totalPrice": 20.05
+				},
+				{
+				  "sku": "93831749",
+				  "name": "Sport Shoes",
+				  "description": "A Super Stylish and Comfortable Shoes.",
+				  "category": "Accessory > Shoes > Comfortable Shoes",
+				  "unitPrice": 65.99,
+				  "salePrice": 55.5,
+				  "quantity": 1,
+				  "totalPrice": 10.49
+				},
+				{
+				  "sku": "92033407",
+				  "name": "Hoodie",
+				  "description": "A super Stylish Hoodie.",
+				  "category": "Jackets > Hoodie > Brown",
+				  "unitPrice": 60,
+				  "salePrice": 30,
+				  "quantity": 1,
+				  "totalPrice": 30.00
+				}
+			  ]
+			}
+		  ]
+	  },
+	  {
+		"userId": "3",
+		"firstName": "Srushti",
+		"lastName": "Patel",
+		"region": "Nevada",
+		"phoneNumber": "1045862709",
+		"emailAddress": "ghi@gmail.com",
+		"shippingAddress": "GHI Street, GHI City, NV,98765",
+		"orders": [
+			{
+			  "orderId": "123",
+			  "currency": "USD",
+			  "subtotal": 48.98,
+			  "discountAmount": 0,
+			  "taxAmount": 0,
+			  "grandTotal": 48.98,
+			  "lineItems": [
+				{
+				  "sku": "576879",
+				  "name": "T-Shirt",
+				  "description": "A great quality and stylish T-Shirt",
+				  "category": "Shirts > T-Shirts > Black",
+				  "unitPrice": 9.99,
+				  "salePrice": 9.99,
+				  "quantity": 2,
+				  "totalPrice": 19.98
+				},
+				{
+				  "sku": "1112296",
+				  "name": "Jacket",
+				  "description": "A Great Quality Comfortable Jacket.",
+				  "category": "Jackets > Winter > Fleece",
+				  "unitPrice": 100,
+				  "salePrice": 75,
+				  "quantity": 1,
+				  "totalPrice": 25
+				}
+			  ]
+			},
+			{
+			  "orderId": "124",
+			  "currency": "USD",
+			  "subtotal": 11.99,
+			  "discountAmount": 0.99,
+			  "taxAmount": 0,
+			  "grandTotal": 11.99,
+			  "lineItems": [
+				{
+				  "sku": "576880",
+				  "name": "Shirt",
+				  "description": "A great quality Shirt.",
+				  "category": "Shirts > White",
+				  "unitPrice": 20.99,
+				  "salePrice": 20.99,
+				  "quantity": 1,
+				  "totalPrice": 41.98
+				}
+			  ]
+			},
+			{
+			  "orderId": "125",
+			  "currency": "USD",
+			  "subtotal": 58.01,
+			  "discountAmount": 0,
+			  "taxAmount": 0,
+			  "grandTotal": 58.01,
+			  "lineItems": [
+				{
+				  "sku": "93782101",
+				  "name": "Poly Fleece",
+				  "description": "A super great description of the product.",
+				  "category": "Jackets > Winter > Fleece",
+				  "unitPrice": 17.99,
+				  "salePrice": 17.99,
+				  "quantity": 1,
+				  "totalPrice": 20.05
+				},
+				{
+				  "sku": "93831749",
+				  "name": "Super Comfortable Shoes",
+				  "description": "A Super Stylish and Comfortable Shoes.",
+				  "category": "Accessory > Shoes > Comfortable Shoes",
+				  "unitPrice": 65.99,
+				  "salePrice": 55.5,
+				  "quantity": 1,
+				  "totalPrice": 10.49
+				},
+				{
+				  "sku": "92033407",
+				  "name": "Hoodie",
+				  "description": "A super Stylish Hoodie.",
+				  "category": "Jackets > Hoodie > Brown",
+				  "unitPrice": 60,
+				  "salePrice": 30,
+				  "quantity": 1,
+				  "totalPrice": 30.00
+				}
+			  ]
+			}
+		  ]
+	  }
+	]
+  }

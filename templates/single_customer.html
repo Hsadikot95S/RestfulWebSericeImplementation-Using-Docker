@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f3f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Customer Data</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>User ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Address</th>
+                <th>Region</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ customer.userId }}</td>
+                <td>{{ customer.firstName }}</td>
+                <td>{{ customer.lastName }}</td>
+                <td>{{ customer.emailAddress }}</td>
+                <td>{{ customer.phoneNumber }}</td>
+                <td>{{ customer.shippingAddress }}</td>
+                <td>{{ customer.region }}</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+
