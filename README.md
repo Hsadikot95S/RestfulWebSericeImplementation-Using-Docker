@@ -8,11 +8,11 @@
 ### 4. GET /Customers/<int:id>/orders: # Route to display all orders for a given customer ID
 ### 5. GET /app.route('/customers/<int:customer_id>/orders/<int:order_id>':Route to display a single order by customer and order ID
 
-## We run the application on the docker container using the docerfile as implemented below:
+## We run the application on the docker container using the dockerfile as implemented below:
 
 FROM ubuntu:20.04
 
-# Update OS and install required packages
+Update OS and install required packages
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get -y upgrade && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
@@ -22,23 +22,23 @@ RUN apt-get update && \
     libssl-dev
 
 
-# Add requirements.txt
+#Add requirements.txt
 COPY requirements.txt /webapp/
 
-# Install uwsgi Python web server
+#Install uwsgi Python web server
 RUN pip3 install uwsgi
 
-# Install app requirements
+#Install app requirements
 RUN pip3 install -r /webapp/requirements.txt
 
-# Create app directory
+#Create app directory
 COPY . /webapp/
 
-# Set the default directory for our environment
+#Set the default directory for our environment
 ENV HOME /webapp
 WORKDIR /webapp
 
-# Expose port 8000 for uwsgi
+#Expose port 8000 for uwsgi
 EXPOSE 8000
 
 ENTRYPOINT ["uwsgi", "--http", "0.0.0.0:8000", "--module", "app:app", "--processes", "1", "--threads", "8"]
