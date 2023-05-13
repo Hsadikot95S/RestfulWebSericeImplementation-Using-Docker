@@ -61,3 +61,6 @@ ENTRYPOINT ["uwsgi", "--http", "0.0.0.0:8000", "--module", "app:app", "--process
     docker rm <container_id>
 6. ## To remove the image, use the command below:
     docker rmi <image_id>
+    
+    
+  The recordings and the powerpoint to be submitted as a part of the assignment are uploaded at: https://drive.google.com/drive/folders/1DgzFNtSqQWpOGiF1IvFG8Ywsedi7N5ix?usp=sharing
